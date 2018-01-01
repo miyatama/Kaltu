@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.example.miyatama.kaltuapp.CreateKaltuActivity">
+
+    <com.example.miyatama.kaltuapp.AutoFitTextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/kaltImage"
+            android:layout_width="match_parent"
+            android:layout_height="190dip"
+            android:layout_marginTop="180dip"
+            android:keepScreenOn="true"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/btn_shutter"
+            style="?metaButtonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_launcher_background"
+            android:text="@string/btn_shutter" />
+
+    </RelativeLayout>
+
+</FrameLayout>

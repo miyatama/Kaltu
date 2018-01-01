@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KaltuApp</string>
+    <string name="create_kaltu">Create Kaltu</string>
+    <string name="start_kaltu_time">Enjoy Kaltu</string>
+
+    <string name="title_activity_create_kaltu">CreateKaltuActivity</string>
+    <string name="btn_shutter">Get Kaltu</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+</resources>
